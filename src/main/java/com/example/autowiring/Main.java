@@ -12,5 +12,9 @@ public class Main {
         System.out.println(person.getName());
         System.out.println(parrot.getName());
         System.out.println(person.getParrot().getName());
+
+        // both reference the same object because of spring
+        System.out.println(parrot);
+        System.out.println(person.getParrot());
     }
 }
