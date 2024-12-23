@@ -3,7 +3,7 @@ package com.example.autowiring;
 public class Person {
 
     private String name;
-    private Parrot parort;
+    private Parrot parrot;
 
     public String getName() {
         return name;
@@ -13,11 +13,11 @@ public class Person {
         this.name = name;
     }
 
-    public Parrot getParort() {
-        return parort;
+    public Parrot getParrot() {
+        return parrot;
     }
 
-    public void setParort(Parrot parort) {
-        this.parort = parort;
+    public void setParrot(Parrot parrot) {
+        this.parrot = parrot;
     }
 }
