@@ -1,8 +1,11 @@
 package com.example.autowiring;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Parrot {
 
-    private String name;
+    private String name = "miki";
 
     // should only create once
     public Parrot () {
