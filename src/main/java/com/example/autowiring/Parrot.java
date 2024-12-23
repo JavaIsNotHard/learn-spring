@@ -1,9 +1,7 @@
-package com.example;
+package com.example.autowiring;
 
-import org.springframework.stereotype.Component;
-
-@Component
 public class Parrot {
+
     private String name;
 
     public String getName() {
@@ -13,4 +11,10 @@ public class Parrot {
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return "Parrot : " + name;
+    }
+
 }
